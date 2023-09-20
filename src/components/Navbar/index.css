@@ -1,0 +1,47 @@
+/* Write your CSS here */
+.navbar-dark-container {
+  background-color: #333333;
+  padding: 10px;
+}
+.navbar-light-container {
+  background-color: #ffffff;
+  padding: 10px;
+}
+.nav-items-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.list-items {
+  list-style-type: none;
+}
+.webiste-logo {
+  width: 60px;
+  height: 60px;
+}
+.home-about-container {
+  display: flex;
+  flex-direction: row;
+
+  width: 200px;
+  justify-content: space-between;
+  color: white;
+}
+
+.dark-btn {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+}
+.link-item {
+  list-style-type: none;
+  text-decoration: none;
+  color: white;
+}
+.link-item-light {
+  list-style-type: none;
+  text-decoration: none;
+  color: black;
+}
